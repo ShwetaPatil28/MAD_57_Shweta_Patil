@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <TableRow>
+        <TextView
+            android:text="Name"
+            android:padding="8dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:text="Age"
+            android:padding="8dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:text="City"
+            android:padding="8dp"
+            android:textStyle="bold" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:text="Shweta"
+            android:padding="8dp" />
+
+        <TextView
+            android:text="22"
+            android:padding="8dp" />
+
+        <TextView
+            android:text="Pune"
+            android:padding="8dp" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:text="Pranjali"
+            android:padding="8dp" />
+
+        <TextView
+            android:text="22"
+            android:padding="8dp" />
+
+        <TextView
+            android:text="kolhapur"
+            android:padding="8dp" />
+    </TableRow>
+
+</TableLayout>

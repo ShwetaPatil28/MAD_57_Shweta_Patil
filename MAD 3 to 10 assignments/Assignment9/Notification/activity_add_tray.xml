@@ -1,0 +1,89 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E8F5E9"
+    android:fitsSystemWindows="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <!-- Title -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🌱 Add Tray Details"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:textColor="#1B5E20"
+            android:gravity="center"
+            android:layout_marginBottom="20dp"/>
+
+        <!-- Card Layout -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#FFFFFF"
+            android:padding="16dp"
+            android:elevation="6dp"
+            android:layout_marginBottom="20dp">
+
+            <EditText
+                android:id="@+id/editTrayNo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="🔢 Tray Number"
+                android:padding="12dp"
+                android:layout_marginBottom="10dp"
+                android:background="#F5F5F5"/>
+
+            <EditText
+                android:id="@+id/editSeedType"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="🌾 Seed Type"
+                android:padding="12dp"
+                android:layout_marginBottom="10dp"
+                android:background="#F5F5F5"/>
+
+            <EditText
+                android:id="@+id/editDate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="📅 Planting Date"
+                android:padding="12dp"
+                android:layout_marginBottom="10dp"
+                android:background="#F5F5F5"/>
+
+            <Spinner
+                android:id="@+id/spinnerStatus"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="12dp"/>
+
+            <Button
+                android:id="@+id/btnSaveTray"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Save Tray"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                android:background="#2E7D32"
+                android:padding="12dp"/>
+        </LinearLayout>
+
+        <!-- Image Section -->
+        <ImageView
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:layout_gravity="center"
+            android:src="@drawable/img"
+            android:scaleType="centerCrop"
+            android:elevation="6dp"/>
+
+    </LinearLayout>
+
+</ScrollView>
