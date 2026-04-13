@@ -1,0 +1,29 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_green"
+    android:fitsSystemWindows="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp"
+        android:background="@color/light_green">
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:src="@drawable/logo"/>
+
+        <Button android:id="@+id/btnAddTray" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Add Tray"/>
+        <Button android:id="@+id/btnViewTrays" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="View Trays"/>
+        <Button android:id="@+id/btnAddVariety" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Add Variety"/>
+        <Button android:id="@+id/btnViewOrders" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="View Orders"/>
+        <Button android:id="@+id/btnIrrigation" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Irrigation Tracking"/>
+        <Button android:id="@+id/btnPest" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Pest Disease Help"/>
+        <Button android:id="@+id/btnReports" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Reports"/>
+
+    </LinearLayout>
+</ScrollView>

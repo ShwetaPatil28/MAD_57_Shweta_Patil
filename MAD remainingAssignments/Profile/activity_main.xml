@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F4F4F4">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="28dp"
+        android:layout_marginTop="40dp"
+        android:gravity="center_horizontal">
+
+        <ImageView
+            android:id="@+id/profileImage"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/circle_bg"
+            android:padding="4dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/profile" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Shweta Patil"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#212121"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="B.Tech Computer Science Student"
+            android:textSize="15sp"
+            android:textColor="#616161"
+            android:layout_marginBottom="6dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="D Y Patil College of Engineering and Technology"
+            android:textSize="14sp"
+            android:textColor="#757575"
+            android:layout_marginBottom="20dp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#D6D6D6"
+            android:layout_marginBottom="20dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="About Me"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#212121"
+            android:layout_marginBottom="6dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Passionate developer with strong interest in Android Development, Web Technologies and Problem Solving."
+            android:textSize="14sp"
+            android:textColor="#616161"
+            android:layout_marginBottom="20dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Technical Skills"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#212121"
+            android:layout_marginBottom="6dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="• Java\n• Android Studio\n• HTML CSS\n• SQL\n• JavaScript"
+            android:textSize="14sp"
+            android:textColor="#616161"
+            android:layout_marginBottom="24dp"/>
+
+        <Button
+            android:id="@+id/btnLinkedIn"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="LinkedIn Profile"
+            android:backgroundTint="#424242"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="12dp"/>
+
+        <Button
+            android:id="@+id/btnEmail"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Send Email"
+            android:backgroundTint="#616161"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="12dp"/>
+
+        <Button
+            android:id="@+id/btnResume"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="View Resume"
+            android:backgroundTint="#757575"
+            android:textColor="#FFFFFF"/>
+
+        <Button
+            android:id="@+id/btnBackToLogin"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Back to Login"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="#424242"
+            android:textColor="#FFFFFF"/>
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,93 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF3E0"
+    android:fitsSystemWindows="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <!-- Title -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🌾 Add Sugarcane Variety"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:textColor="#E65100"
+            android:gravity="center"
+            android:layout_marginBottom="20dp"/>
+
+        <!-- Card Layout -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#FFFFFF"
+            android:padding="16dp"
+            android:elevation="6dp"
+            android:layout_marginBottom="20dp">
+
+            <EditText
+                android:id="@+id/editName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="🌱 Variety Name"
+                android:padding="12dp"
+                android:layout_marginBottom="10dp"
+                android:background="#F5F5F5"/>
+
+            <EditText
+                android:id="@+id/editYield"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="📊 Yield"
+                android:padding="12dp"
+                android:layout_marginBottom="10dp"
+                android:background="#F5F5F5"/>
+
+            <EditText
+                android:id="@+id/editMaturity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="⏳ Maturity Period"
+                android:padding="12dp"
+                android:layout_marginBottom="10dp"
+                android:background="#F5F5F5"/>
+
+            <EditText
+                android:id="@+id/editPrice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="💰 Price"
+                android:inputType="number"
+                android:padding="12dp"
+                android:layout_marginBottom="12dp"
+                android:background="#F5F5F5"/>
+
+            <Button
+                android:id="@+id/btnSaveVariety"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Save Variety"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                android:background="#EF6C00"
+                android:padding="12dp"/>
+        </LinearLayout>
+
+        <!-- Image -->
+        <ImageView
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:layout_gravity="center"
+            android:src="@drawable/bud"
+            android:scaleType="centerCrop"
+            android:elevation="6dp"/>
+
+    </LinearLayout>
+
+</ScrollView>
